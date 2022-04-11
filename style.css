@@ -1,3 +1,47 @@
-body {
-background-color: black;
+/* COLORS
+#445552 - gray
+#001011 - black
+#9B5DE5 - purple
+#F15BB5 - pink
+#FEE440 - yellow
+#00BBF9 - blue
+#00F5D4 - aqua */
+
+text,
+h1,
+h2,
+h3,
+p {
+  color: ##001011;
+}
+
+#tipBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  border-style: solid;
+  border-width: 5px;
+  border-color: #445552;
+  width: 50%;
+  min-height: 150px;
+  margin: auto;
+  padding: 10px;
+}
+#tipBox p {
+  text-align: center;
+}
+
+.tipGenerator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #445552;
+}
+
+#newTip {
+  padding: 10px;
 }
